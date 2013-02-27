@@ -5,5 +5,5 @@ HTML 5
 Java Swing
 
 Creadores del Codigo:
-Jerson Suaza Gallego
+Jerson Suaza Gallego y 
 Rodrigo Diaz Bermudez
