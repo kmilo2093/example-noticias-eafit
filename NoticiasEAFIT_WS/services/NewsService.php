@@ -25,7 +25,7 @@ class NewsService extends Service {
     }
 
     public function getNews() {
-        return ArrayHelper::toArray(Controller::getInstance()->getNews());
+        return (Controller::getInstance()->getNews());
     }
 
     public function getNewsById($id) {

@@ -37,7 +37,7 @@ classCotroller.prototype = {
         var params = {
             id: idNews
         };
-        instaNetFunctions.callService(true, 'http://127.0.0.1/Noticias%20EAFIT/NoticiasEAFIT_WS/services/NewsService.php', params, 'get', 'instanceCotroller.bs_loadThisNews', 'instanceCotroller.cb_loadThisNews', 'instanceCotroller.err_loadThisNews');
+        instaNetFunctions.callService(true, 'http://127.0.0.1/NoticasEafit/NoticiasEAFIT_WS/services/NewsService.php', params, 'get', 'instanceCotroller.bs_loadThisNews', 'instanceCotroller.cb_loadThisNews', 'instanceCotroller.err_loadThisNews');
     },
 
     bs_loadThisNews: function(){
@@ -69,7 +69,7 @@ classCotroller.prototype = {
 
     loadNews: function() {
         var params = {};
-        instaNetFunctions.callService(true, 'http://127.0.0.1/Noticias%20EAFIT/NoticiasEAFIT_WS/services/NewsService.php', params, 'post', 'instanceCotroller.bs_loadNews', 'instanceCotroller.cb_loadNews', 'instanceCotroller.err_loadNews');
+        instaNetFunctions.callService(true, 'http://127.0.0.1/NoticasEafit/NoticiasEAFIT_WS/services/NewsService.php', params, 'post', 'instanceCotroller.bs_loadNews', 'instanceCotroller.cb_loadNews', 'instanceCotroller.err_loadNews');
     },
     bs_loadNews: function() {
         //loading...
